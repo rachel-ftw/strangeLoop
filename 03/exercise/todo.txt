@@ -1,0 +1,14 @@
+//Challenge 1:
+1. Define a new coordinate system (margins, width, height)
+2. Define SVG container 200 by 300
+3. use transform/translate to move SVG's viewport
+4. append rectangle
+5. Add properties (height: 150, width: 50, x, y coordinates, fill: red)
+6. generate SVG based on data: myData = [{"x": 5, "y": 5},{"x": 50, "y": 50},{"x": 100, "y": 100}];
+
+
+//Challenge 2:
+1. define margins
+2. Define SVG container
+3. Print out rectangles
+4. in console, check that each rectangle has _data_ attribute

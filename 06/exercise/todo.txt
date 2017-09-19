@@ -1,0 +1,16 @@
+Bonus:
+let's make it responsive!
+1. add an event listener to listen window resize event; call chart.render when event registered
+2. create updateDimention function:
+  a. if width of the window is bigger then 768px, scale your chart.
+  b. set up aspect ration where width is equal to a current width of the window minus margins;
+  c. height will be calculated from width multiplied by aspect ratio (use .7)
+
+3. create render function
+  a. call updateDimentions inside render function
+  b. all code that uses width and height put inside render function:
+    -- range
+    -- margin conversion
+    -- scale
+    -- axis
+    -- draw rectangles based on scaled data

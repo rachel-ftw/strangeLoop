@@ -1,0 +1,9 @@
+//Challenge 1:
+1. Create a simple array myData
+2. Bind my data to an element
+3. Check __data__ property in console
+
+//Challenge 2:
+1. create a selection
+2. bind our New England data to div elements
+3. Print out each state

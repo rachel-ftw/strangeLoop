@@ -1,0 +1,4 @@
+1. Create a div with a class name "chart"
+2. Select it using d3
+3. Append a <p> tag
+4. Insert a text "d3 is awesome!"

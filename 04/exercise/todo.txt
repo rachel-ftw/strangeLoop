@@ -1,0 +1,9 @@
+Think about how to use the data to create a chart. We have 2 values: names of the states
+and population. There are 6 different categories (6 states) with different numeric values. The bar chart
+will be the most appropriate tool to compare the population in New England by state. Our chart will
+have 6 buckets, and the height of each bar will depend on population.
+
+1. Use scaleBand to define "buckets" (x coordinate)
+2. Use scaleLinear to define the height of the bars (y coordinate)
+3. define domain; use map(); and max();
+4. add the attributes based on scaled data: x, y, width, height.

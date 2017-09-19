@@ -1,0 +1,21 @@
+1. Add d3 version to index.html
+ go to https://github.com/d3/d3
+  a. download (you can find it in assets)
+  b. add minified version
+  c. use NPM
+
+2. check the version in console:
+d3.version
+"4.10.2"
+
+3. create JSON object: var data = { name: 'xxx', value: xxx}; in app.js file
+
+Vermont 625741
+Rhode Island 052567
+New Hampshire 1316470
+Massachusetts 6547629
+Maine 1328361
+Connecticut 3574097
+
+3. check that we have our data set ready:
+data
