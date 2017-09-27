@@ -1,6 +1,6 @@
 //Challenge 1:
-1. Create a simple array myData
-2. Bind my data to an element
+1. Create a simple array myData [1,2,3]
+2. Bind myData to an element
 3. Check __data__ property in console
 
 //Challenge 2:

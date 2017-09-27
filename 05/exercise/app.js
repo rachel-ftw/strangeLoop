@@ -35,8 +35,21 @@ x.domain(data.map(function(d) { return d.name; }));
 y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
 //@TODO define X(xAxis) and Y(yAxis) axis
+//use axisBottom and axisLeft
+
+//var xAxis =
+//var yAxis =
 
 //@TODO draw x and y axes. Note: don't forget to move xAxis down!!
+
+// svg.append("g")
+//     .attr("class", "x axis")
+//     .attr("transform", "translate(0," ")")
+//     .call();
+
+// svg.append("g")
+//     .attr("class", "y axis")
+//     .call();
 
 //add the attributes based on scaled data
 svg.selectAll(".bar")

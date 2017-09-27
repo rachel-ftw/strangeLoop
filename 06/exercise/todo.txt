@@ -8,9 +8,10 @@ let's make it responsive!
 
 3. create render function
   a. call updateDimentions inside render function
-  b. all code that uses width and height put inside render function:
+  b. all code that uses width and height I put inside render function:
     -- range
     -- margin conversion
     -- scale
     -- axis
     -- draw rectangles based on scaled data
+    check how we updated width and height based on a screen size

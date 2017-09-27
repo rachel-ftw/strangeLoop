@@ -30,7 +30,7 @@ var chart = (function(window,d3) {
     chartWrapper.append('g').classed('y axis', true);
 
     render();
-    //
+
     function render() {
 
       //get dimensions based on window size

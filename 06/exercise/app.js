@@ -34,9 +34,9 @@ var chart = (function(window,d3) {
 
     function render() {
       //@TODO call updateDimensions function
-      //get dimensions based on window size
+      //get dimensions based on window size. Use innerWidth
+      //  updateDimensions();
 
-      ////@TODO update x and y range to new dimensions
       x.range([0, width]).padding(0.02);
       y.range([height, 0]);
 
@@ -73,13 +73,11 @@ var chart = (function(window,d3) {
       margin.right = 40;
       margin.left = 60;
       margin.bottom = 60;
-      //scale your svg for bigger screens
-      if(winWidth > breakPoint) {
-        winWidth = winWidth *.7;
-      }
 
-      width = winWidth - margin.left - margin.right;
-      height = width * .5; //aspect ratio is 0.5
+      //@TODO scale your svg for bigger screens. If it's greater the 768, update minwidth,width, height
+      //minwidth =
+      //width =
+      //height =
     }
 
     return {
@@ -88,3 +86,4 @@ var chart = (function(window,d3) {
 
 	})(window,d3);
   //@TODO add event listener here
+  // window.addEventListener('resize', chart.render);

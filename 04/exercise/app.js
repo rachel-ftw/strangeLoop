@@ -21,11 +21,18 @@ var svg = d3.select("body").append("svg")
 
 
 //@TODO Define range for x and y coordinates
-//      use width of SVG to define how wide our chart will be
-//      Define how tall chart will be; in SVG coordinate space we start drawing from
+//      use width and height to define how wide our chart will be;
+//      Note: in SVG coordinate space we start drawing from
 //      the top left corner and as Y increases you go down.
+//var x =
+//    .range()
+//    .padding(0.02);
+// var y =
+//    .range();
 
-//@TODO define domain; use map and max functions
+//@TODO define domain; use map() and max() functions
+// x.domain();
+// y.domain();
 
 //draw rectangles based on data
 svg.selectAll(".bar")
@@ -37,3 +44,7 @@ svg.selectAll(".bar")
     .attr("rx", 5)
     .attr("ry", 5);
 //@TODO add the attributes based on scaled data: x, y, width, height
+// svg.attr("x",)
+//     .attr("width", )//Returns the width of each band.
+//     .attr("y", )
+//     .attr("height", ); //Returns scaled height of each bar
